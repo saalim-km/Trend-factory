@@ -1,0 +1,40 @@
+#aboutUs  {
+    background-color: #ce0d0d;
+}
+.download-row {
+    margin: 0;
+    padding: 2% 0 5% 2%;
+}
+.down-heading {
+    color: white;
+    font-weight: 500;
+    font-size: 2.5rem;
+}
+.download-img-playstore {
+    width: 40%;
+    margin-left: 60%;
+}
+.download-heading-1 {
+    margin-top: 15%;
+}
+@media (max-width:989px) {
+    .download-row {
+        text-align: center;
+    }
+    .down-heading {
+        margin-top: 2%;
+    }
+    .download-btn {
+        margin-top: 2%;
+    }
+    .download-img-playstore {
+        margin: 0;
+        width: 70%;
+        margin-top: -5%;
+        cursor: pointer;
+    }
+    .download-img-playstore:hover {
+        transition: 0.2s;
+        opacity: 0.9;
+    }
+}
